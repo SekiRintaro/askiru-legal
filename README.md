@@ -1,24 +1,22 @@
-# Askiru public site (GitHub Pages)
+# Askiru legal pages
 
-Static legal pages for App Store Connect and public links.
-
-## Setup (one time)
-
-1. Push this repo to GitHub
-2. Repository **Settings → Pages**
-3. **Build and deployment → Source:** `GitHub Actions`
-4. Push to `main` (or run **Deploy GitHub Pages** workflow manually)
+Public legal pages for the Askiru iOS app (App Store Connect).
 
 ## URLs
 
-After deploy (repo name `closet`):
+| Page | URL |
+|------|-----|
+| Top | https://sekirintaro.github.io/askiru-legal/ |
+| Privacy | https://sekirintaro.github.io/askiru-legal/privacy.html |
+| Terms | https://sekirintaro.github.io/askiru-legal/terms.html |
+| Community | https://sekirintaro.github.io/askiru-legal/community.html |
 
-- Top: `https://sekirintaro.github.io/closet/`
-- Privacy: `https://sekirintaro.github.io/closet/privacy.html`
-- Terms: `https://sekirintaro.github.io/closet/terms.html`
+## GitHub Pages setup
 
-Use the privacy URL in App Store Connect.
+1. **Settings → Pages**
+2. **Source:** Deploy from a branch
+3. **Branch:** `main` / `/ (root)`
 
-## Content source
+## Source of truth
 
-Copy should stay in sync with `app/constants/legal.ts`.
+Edited in the private app repo under `site/`, then copied here.
